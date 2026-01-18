@@ -1,64 +1,57 @@
-# Vampires vs. Zombies Text Adventure (Python)
+# Text-Adventure-2025 (Python)
 
-A terminal-based text adventure game prototype built in Python.  
-This repo documents the project in phases and is being expanded into a data-driven engine (JSON) with a future TTS/audio pipeline.
+A terminal-style **text adventure** project built as a practical way to learn Python by building something real.
+This repo is organized in phases:
+
+- ✅ **Phase 1:** playable prototype
+- 🛠️ **Phase 2:** in progress (health/combat + JSON + better structure)
+- 🌙 **Phase 3 (Dream):** simple UI/app wrapper with visuals + audio playback (TTS)
 
 ---
 
 ## Project Status
 
 ### ✅ Phase 1 (Completed)
-**Finished version:** `Text Adventure 1.0`
+**Playable prototype:** `text_adventure_v1_0.ipynb`
 
 Phase 1 includes:
-- Room navigation (N/E/S/W)
-- Inspect/explore descriptions
+- Room navigation (`go north/south/east/west`)
+- Inspect/look descriptions
 - Inventory + item pickup/use
-- Enemy encounters (prototype combat rules)
-- World design and planning artifacts
+- Enemy encounters (prototype logic)
+- Basic gameplay loop
 
-**Phase 1 documentation:** `Phase 1 Project Plan.docx`
+Documentation:
+- `Phase_1_Project_Plan.docx`
 
 ---
 
 ### 🛠️ Phase 2 (In Progress)
-**Current work file:** `Text_Adventure_2_0.ipynb`
+**Current work:** `text_adventure_v2_0.ipynb`
 
-Phase 2 goals (planned):
-- Player health (start at 100) + random damage (no instant death)
-- `status` command (health/location/inventory)
+Phase 2 goals (planned/being built):
+- Player health (start at 100)
+- Random damage (no instant death)
+- `status` command (health / location / inventory)
 - `back` command (room history)
-- Convert world content to JSON and load it dynamically
-- Add validation checks (broken room links, missing rooms, invalid values)
-- Prepare output for future TTS (centralized output/logging)
+- Convert world content to **JSON** + load dynamically
+- Cleaner command parsing + better error handling
+- TTS-ready output planning (keep demo audio clips under 20)
+
+Documentation:
+- `Phase_2_Project_Plan.docx`
 
 ---
 
-## How to Run (Phase 1)
-1. Download or clone this repo
-2. Run the Phase 1 script:
-   - Open `Text Adventure 1.0`
-   - Run it with Python (example):
-     ```bash
-     python "Text Adventure 1.0"
-     ```
-   *(If your Phase 1 file is actually `.py`, rename this command accordingly.)*
+## How to Run
 
----
+### Option A — Run in Google Colab (easiest)
+1. Open `text_adventure_v1_0.ipynb`
+2. Click **Open in Colab** (or upload to Colab)
+3. Run the cells top-to-bottom
+4. Use the input prompts to play
 
-## Repo Files (Quick Guide)
-- `text_adventure_v1_0.ipynb` — Phase 1 completed playable version
-- `text_adventure_v2_0.ipynb` — Phase 2 work-in-progress notebook
-- `Phase_1_Project_Plan.docx` — Phase 1 plan/closeout documentation
-- `README.md` — overview + roadmap
-
----
-
-## Roadmap
-- **Phase 2:** JSON-driven content + improved gameplay systems + TTS-ready output
-- **Phase 3 (Dream):** Simple UI / app wrapper with visuals + audio playback
-
----
-
-## License
-(Planned) MIT License for code. Audio/demo assets will be handled separately if added.
+### Option B — Run locally in Jupyter
+1. Install Jupyter:
+   ```bash
+   pip install notebook
