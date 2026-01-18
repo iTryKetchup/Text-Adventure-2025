@@ -47,8 +47,8 @@ Phase 2 goals (planned):
 ---
 
 ## Repo Files (Quick Guide)
-- `Text_Adventure_v1.py` — Phase 1 completed playable version
-- `Text_Adventure_2_0.ipynb` — Phase 2 work-in-progress notebook
+- `text_adventure_v1_0.ipynb` — Phase 1 completed playable version
+- `text_adventure_2_0.ipynb` — Phase 2 work-in-progress notebook
 - `Phase 1 Project Plan.docx` — Phase 1 plan/closeout documentation
 - `README.md` — overview + roadmap
 
