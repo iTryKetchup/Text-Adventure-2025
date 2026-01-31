@@ -1,3 +1,8 @@
+# Text-Adventure-2025
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/iTryKetchup/Text-Adventure-2025/blob/main/text_adventure_stable.ipynb)
+
+---
 Text Adventure (Python)
 
 A terminal-based text adventure RPG built in Python as a **coding practice + portfolio project**.  
