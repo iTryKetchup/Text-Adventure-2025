@@ -1,0 +1,9 @@
+# Data Management
+pandas
+openpyxl
+
+# Web Foundation (For Phase 3)
+flask
+
+# Development & Testing (For Milestone 5)
+pytest
